@@ -1,0 +1,92 @@
+.main-div{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.navbar-div{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 247px 1fr 310px;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 55px;
+  padding: 12px;
+  background-color: #131010;
+  z-index: 10;
+  /* opacity: 0; */
+}
+.div-bollygrad-movies{
+  font-size: 30px;
+  font-weight: 700;
+  color: white
+  /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,82,255,1) 48%, rgba(27,236,97,1) 78%, rgba(255,255,255,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.div-naviagtion-btn{
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+.div-home-btn, .div-all-movies-btn, .div-actor-btn, .div-movies-btn, .div-shows-btn{
+  margin-top: 0px;
+  transition: .15s margin-top;
+}
+.div-home-btn:hover, .div-all-movies-btn:hover, .div-actor-btn:hover, .div-movies-btn:hover, .div-shows-btn:hover{
+  margin-top: -3px;
+}
+.home-btn, .all-movies-btn, .actor-btn, .movies-btn, .shows-btn{
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 0px;
+  font-size: 16px;
+  color: white;
+}
+.div-search-box{
+  display: flex;
+  background-color: rgb(225, 225, 225);
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  flex: 1;
+}
+.div-search-input{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.search-input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex: 1;
+  background: none;
+  padding-left: 8px;
+}
+.search-input:focus{
+  outline: none;
+}
+.div-search-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px; 
+  height: 35px;
+  border-left: 1px solid black;
+}
+.search-btn{
+  width: 22px; 
+  height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
